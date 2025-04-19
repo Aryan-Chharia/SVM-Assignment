@@ -6,17 +6,20 @@
 
 ---
 
-# Project Title
+## Project Overview
 
-A brief description of your project, its purpose, and main features.
+This project optimizes a Support Vector Machine (SVM) classifier for the Wine Quality dataset using the Optuna library. The goal is to maximize classification accuracy by tuning SVM hyperparameters across 10 different train-test splits, ensuring robustness. The dataset is sourced from the UCI Machine Learning Repository, and the quality scores (3–8) are treated as discrete classes.
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
+- [Dependencies](#dependencies)
+- [How to Run](#how-to-run)
+- [Outputs](#outputs)
+- [Results](#results)
+- [Approach](#approach)
 
 ## Installation
 
@@ -30,45 +33,21 @@ A brief description of your project, its purpose, and main features.
    ```
 3. Install dependencies:
    ```sh
-   npm install
-   ```
-   or
-   ```sh
    pip install -r requirements.txt
    ```
-   *(Adjust according to your tech stack)*
+   *(Or manually install as listed below)*
 
 ## Usage
 
 Provide examples of how to run or use your project:
 
 ```sh
-npm start
-```
-or
-```sh
 python main.py
 ```
-
-## Features
-
-- Feature 1
-- Feature 2
-- Feature 3
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-[MIT](LICENSE)
-
-# SVM Hyperparameter Optimization on Wine Quality Dataset
-
-## Overview
-
-This project optimizes a Support Vector Machine (SVM) classifier for the Wine Quality dataset using the Optuna library. The goal is to maximize classification accuracy by tuning SVM hyperparameters across 10 different train-test splits, ensuring robustness. The dataset is sourced from the UCI Machine Learning Repository, and the quality scores (3–8) are treated as discrete classes.
+or, if using a notebook:
+```sh
+jupyter notebook svm.ipynb
+```
 
 ## Features
 
@@ -87,23 +66,23 @@ This project optimizes a Support Vector Machine (SVM) classifier for the Wine Qu
 - `matplotlib`
 
 Install them using:
-```bash
+```sh
 pip install pandas numpy scikit-learn optuna matplotlib
 ```
 
 ## How to Run
 
 Clone the Repository:
-```bash
+```sh
 git clone <repository-url>
 cd <repository-directory>
 ```
 
 Run the Script:
-```bash
+```sh
 python svm_optimization.py
 ```
-Replace `svm_optimization.py` with the actual script filename.
+Replace `svm_optimization.py` with the actual script filename if different.
 
 ## Outputs
 
